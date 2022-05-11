@@ -12,5 +12,4 @@ class DiagonalMatrix(length: Int) : SquareMatrix(length) {
             matrix[i][i] = Random.nextInt(from, to).toDouble()
         }
     }
-
 }

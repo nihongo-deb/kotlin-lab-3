@@ -1,4 +1,5 @@
-class NullMatrix : Matrix() {
+class NullMatrix : Matrix {
+    constructor(rowNumbers: Int, columnNumbers: Int) : super(rowNumbers, columnNumbers)
     override fun randomFillMatrixDouble(from: Double, to: Double) {
         println("unusable for this object")
     }
